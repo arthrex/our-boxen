@@ -57,6 +57,10 @@ github "virtualbox"
 github "sublime_text_2"
 github "chrome"
 github "heroku"
+github "dockutil"
+github "repository"
+github "viscosity" 
+github "zsh" 
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

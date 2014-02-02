@@ -96,4 +96,30 @@ node default {
   include virtualbox
   include sublime_text_2
   include heroku
+  include viscosity
+  include zsh
+
+  #clone repos
+ # repository {
+ #   'sos':
+ #     source   => 'git://github.com/wfarr/.emacs.d.git',
+ #     path     => '/etc/emacs.d',
+ #     provider => 'git',
+ # }
+
+  #setup dockbar
+
+  include dockutil
+  dockutil::item { 'Add Sublime Text 2':
+      item     => "/Applications/Sublime Text 2.app",
+      label    => "Sublime Text 2",
+      action   => "add",
+      position => 20,
+  }
+  dockutil::item { 'Add Google Chrome':
+      item     => "/Applications/Google Chrome.app",
+      label    => "iTerm",
+      action   => "add",
+      position => 21,
+  }
 }
