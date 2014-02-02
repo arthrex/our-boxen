@@ -33,6 +33,7 @@ github "boxen", "3.3.4"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
+#forge "http://forge.puppetlabs.com"
 
 github "dnsmasq",    "1.0.1"
 github "foreman",    "1.0.0"
@@ -62,6 +63,9 @@ github "dockutil"
 github "viscosity" 
 github "zsh"
 github "java"
+github "flux"
+#mod "branan/s3file"
+#mod "kaleidoscope", :git => "git@github.com:ngs/puppet-kaleidoscope.git"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

@@ -99,14 +99,17 @@ node default {
   include viscosity
   include zsh
   include java
+  include chrome::canary
+  #include kaleidoscope
+  #include flux
 
   #clone repos
- # repository {
- #   'sos':
- #     source   => 'git://github.com/wfarr/.emacs.d.git',
- #     path     => '/etc/emacs.d',
- #     provider => 'git',
- # }
+  repository {
+    'sos':
+      source   => 'git@git.arthrex.com:marketing/sos.git',
+      path     => '/Users/amberwoodrow/src/sos',
+      provider => 'git',
+  }
 
   #setup dockbar
 
@@ -119,8 +122,10 @@ node default {
   }
   dockutil::item { 'Add Google Chrome':
       item     => "/Applications/Google Chrome.app",
-      label    => "iTerm",
+      label    => "",
       action   => "add",
       position => 21,
   }
+
+  
 }
