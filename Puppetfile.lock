@@ -4,6 +4,11 @@ GITHUBTARBALL
     boxen (3.3.4)
 
 GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (1.1.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.1)
@@ -27,6 +32,11 @@ GITHUBTARBALL
   remote: boxen/puppet-go
   specs:
     go (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-heroku
+  specs:
+    heroku (2.1.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
@@ -71,12 +81,27 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (6.7.2)
+    ruby (7.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-sublime_text_2
+  specs:
+    sublime_text_2 (1.1.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vagrant
+  specs:
+    vagrant (3.0.4)
+
+GITHUBTARBALL
+  remote: boxen/puppet-virtualbox
+  specs:
+    virtualbox (1.0.9)
 
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
@@ -95,11 +120,13 @@ GITHUBTARBALL
 
 DEPENDENCIES
   boxen (= 3.3.4)
+  chrome (>= 0)
   dnsmasq (= 1.0.1)
   foreman (= 1.0.0)
   gcc (= 2.0.1)
   git (= 1.2.5)
   go (= 1.0.0)
+  heroku (>= 0)
   homebrew (= 1.5.1)
   hub (= 1.0.3)
   inifile (= 1.0.0)
@@ -109,8 +136,11 @@ DEPENDENCIES
   phantomjs (= 2.0.2)
   pkgconfig (= 1.0.0)
   repository (= 2.2.0)
-  ruby (= 6.7.2)
+  ruby (= 7.1.0)
   stdlib (= 4.1.0)
+  sublime_text_2 (>= 0)
   sudo (= 1.0.0)
+  vagrant (>= 0)
+  virtualbox (>= 0)
   xquartz (= 1.1.0)
 
