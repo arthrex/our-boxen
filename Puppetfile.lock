@@ -14,6 +14,11 @@ GITHUBTARBALL
     dnsmasq (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-dockutil
+  specs:
+    dockutil (0.1.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-foreman
   specs:
     foreman (1.0.0)
@@ -47,6 +52,11 @@ GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
     hub (1.0.3)
+
+GITHUBTARBALL
+  remote: boxen/puppet-java
+  specs:
+    java (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -104,9 +114,19 @@ GITHUBTARBALL
     virtualbox (1.0.9)
 
 GITHUBTARBALL
+  remote: boxen/puppet-viscosity
+  specs:
+    viscosity (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-zsh
+  specs:
+    zsh (1.0.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -122,6 +142,7 @@ DEPENDENCIES
   boxen (= 3.3.4)
   chrome (>= 0)
   dnsmasq (= 1.0.1)
+  dockutil (>= 0)
   foreman (= 1.0.0)
   gcc (= 2.0.1)
   git (= 1.2.5)
@@ -130,6 +151,7 @@ DEPENDENCIES
   homebrew (= 1.5.1)
   hub (= 1.0.3)
   inifile (= 1.0.0)
+  java (>= 0)
   nginx (= 1.4.2)
   nodejs (= 3.3.0)
   openssl (= 1.0.0)
@@ -142,5 +164,7 @@ DEPENDENCIES
   sudo (= 1.0.0)
   vagrant (>= 0)
   virtualbox (>= 0)
+  viscosity (>= 0)
   xquartz (= 1.1.0)
+  zsh (>= 0)
 
