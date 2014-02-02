@@ -98,6 +98,7 @@ node default {
   include heroku
   include viscosity
   include zsh
+  include java
 
   #clone repos
  # repository {

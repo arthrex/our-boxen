@@ -60,7 +60,8 @@ github "heroku"
 github "dockutil"
 github "repository"
 github "viscosity" 
-github "zsh" 
+github "zsh"
+github "java"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
