@@ -97,11 +97,8 @@ node default {
   include sublime_text_2
   include heroku
   include viscosity
-  include zsh
   include java
   include chrome::canary
-  #include kaleidoscope
-  #include flux
 
   #clone repos
   repository {
