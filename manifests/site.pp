@@ -101,12 +101,11 @@ node default {
   include chrome::canary
 
   #clone repos
-  repository {
-    'sos':
-      source   => 'git@git.arthrex.com:marketing/sos.git',
-      path     => '/Users/amberwoodrow/src/sos',
-      provider => 'git',
-  }
+  #repository {
+  #  'sos':
+  #    source   => 'git@git.arthrex.com:marketing/sos.git',
+  #    provider => 'git',
+  #}
 
   #setup dockbar
 
