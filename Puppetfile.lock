@@ -158,7 +158,6 @@ GITHUBTARBALL
     module-data (0.0.3)
 
 DEPENDENCIES
-<<<<<<< HEAD
   boxen (= 3.3.4)
   chrome (>= 0)
   dnsmasq (= 1.0.1)
